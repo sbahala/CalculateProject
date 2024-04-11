@@ -34,7 +34,7 @@ jobs:
 
       - name: Run SonarScanner
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: 50b6a990e7d3690b138f59b18c1849205b77e105
         run: |
           sonar-scanner \
             -Dsonar.projectKey=sbahala_CalculateProject \
